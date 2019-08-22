@@ -1,0 +1,40 @@
+.center{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.list-items {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    margin: 0 12px;
+}
+
+
+
+/* CAROUSEL */
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+/* FOOTER */
+.confidential-items {
+    width: 150px;
+    font-size: 12px;
+}
