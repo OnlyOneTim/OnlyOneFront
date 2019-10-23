@@ -4,6 +4,7 @@ $(function() {
     });
 });
 
+
 // TRANSLATION PART
 // $.getJSON( "core/translation.json", function( data ) {
 //     var items = [];
