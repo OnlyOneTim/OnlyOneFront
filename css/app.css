@@ -4,6 +4,7 @@ body {
   height: 100%;
   margin: 0;
 }
+
 section {
   height: 100vh;
 }
@@ -41,6 +42,7 @@ ul {
     padding: 56px 0 0 0 !important;
 }
 .carousel.carousel-fade .carousel-item {
+    
     display: block;
     opacity: 0;
     transition: opacity ease-out .7s;
@@ -97,3 +99,12 @@ ul {
     width: 15%;
     font-size: 12px;
 }
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -500%);
