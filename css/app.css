@@ -38,7 +38,8 @@ ul {
 
 /* CAROUSEL */
 .section-carousel {
-    height: 100%;
+    width: auto;
+    height: 100% !important;
     padding: 56px 0 0 0 !important;
 }
 .carousel.carousel-fade .carousel-item {
